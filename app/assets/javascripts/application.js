@@ -1,4 +1,4 @@
-
+var blocmetrics = {};
   blocmetrics.report = function(eventName){
     var event = {event: { name: eventName }};
 
