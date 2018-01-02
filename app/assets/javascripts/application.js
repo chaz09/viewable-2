@@ -1,4 +1,4 @@
-var blocmetrics = {};
+var blocmetrics = {
   blocmetrics.report = function(eventName){
     var event = {event: { name: eventName }};
 
@@ -10,3 +10,4 @@ var blocmetrics = {};
 
     request.send(JSON.stringify(event));
   };
+};
